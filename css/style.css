@@ -74,32 +74,32 @@ body {
 /* Navigation */
 
 .navigation {
-  background: transparent;       /* przezroczyste menu */
-  position: absolute;            /* pozycjonowanie względem splash */
+  background: transparent;       
+  position: absolute;            
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;                   /* żeby menu było ponad tłem */
-  padding: 20px;                 /* trochę przestrzeni */
+  z-index: 10;                   
+  padding: 20px;                 
 }
 
 .wrapper-navigation {
   display: flex;
-  justify-content: space-between; /* lewo/prawo */
-  align-items: center;            /* wyrównanie w pionie */
+  justify-content: space-between; 
+  align-items: center;            
 }
 
 .navigation-menu ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;     /* menu po prawej */
+  justify-content: flex-end;     
   gap: 20px;
   margin: 0;
   padding: 0;
 }
 
 .navigation a {
-  color: #fff;                   /* białe linki na tle zdjęcia */
+  color: #fff;                   
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s;
@@ -151,6 +151,52 @@ body {
     font-variant: small-caps;
     color: #fff;
     
+}
+
+/* Services */
+
+.wrapper-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.services-box {
+    flex: 0 0 33.333%;
+    padding: 20px;
+
+}
+
+.services i {
+    font-size: 30px;
+    background: #ffcc66;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.services-title {
+    font-size: 35px;
+}
+
+.services .title {
+    font-size: 20px;
+}
+
+/* Footer */
+
+.wrapper-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    flex: 50%;
+    padding: 20px; 
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
