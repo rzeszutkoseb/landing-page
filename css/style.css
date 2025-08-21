@@ -105,14 +105,6 @@ body {
     transition: color 0.3s;
 }
 
-.navigation-logo a {
-
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff; 
-    text-decoration: none;
-
-}
 
 .navigation li:hover a {
     color: #ffcc00;
