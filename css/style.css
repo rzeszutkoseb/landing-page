@@ -71,6 +71,10 @@ body {
     
 }
 
+.logo-img img {
+    height: 110px;
+}
+
 /* Navigation */
 
 .navigation {
@@ -175,6 +179,10 @@ body {
     border-radius: 50%;
 }
 
+.services a {
+    font-size: 0px;
+}
+
 .services p {
     font-family: "Amiri";
     font-style: italic;
@@ -276,6 +284,12 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
+    font-size: 0px;
+    
+}
+
+.footer-box2 li i {
+    font-size: 30px;
 }
 
 .footer-box2 li:hover i {
